@@ -1,6 +1,6 @@
 # Enabling Patient-side Disease Prediction via the Integration of Patient Narratives
 
-This is the repository for WWW 2024 submission **Enabling Patient-side Disease Prediction via the Integration of Patient Narratives**. 
+This is the repository for WWW 2024 short paper **Enabling Patient-side Disease Prediction via the Integration of Patient Narratives**. 
 In this paper, we propose Personalized Medical Disease Prediction (PoMP), which predicts diseases using patient health narratives including textual descriptions and demographic information. 
 By applying PoMP, patients can gain a clearer comprehension of their conditions, empowering them to directly seek appropriate medical specialists and thereby reducing the time spent navigating healthcare communication to locate suitable doctors.
 
@@ -13,6 +13,10 @@ By applying PoMP, patients can gain a clearer comprehension of their conditions,
 - torch==1.13.0+cu116
 - tqdm==4.64.0
 - transformers==4.18.0
+
+## Data preparation
+
+In light of privacy considerations, our dataset's public release is currently limited to 5 examples per disease category. We plan to make the complete dataset available at a later date.
 
 ## Quick Start
 

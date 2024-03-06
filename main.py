@@ -240,7 +240,6 @@ def test():
     #     f.close()
     # np.savetxt(os.path.join(output_dir,"indexes.txt"),ordered_positions,fmt="%d", delimiter="\t")
     # np.savetxt(os.path.join(output_dir,"scores.txt"), ordered_scores,fmt="%.5f", delimiter="\t")
-test()
 try:
     train()
 except KeyboardInterrupt:

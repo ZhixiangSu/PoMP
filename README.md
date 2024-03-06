@@ -17,7 +17,7 @@ By applying PoMP, patients can gain a clearer comprehension of their conditions,
 
 ## Data preparation
 
-In light of privacy considerations, our dataset's public release is currently limited to 5 examples per disease category. We plan to make the complete dataset available at a later date.
+In light of privacy considerations, our dataset's public release is currently limited to 5 examples per disease category. To get access to the full dataset, please email zhixiang002@ntu.edu.sg.
 
 ## Quick Start
 

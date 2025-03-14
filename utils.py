@@ -20,7 +20,7 @@ def cal_metrics(category_predictions,category_labels,disease_predictions,disease
     # MR=np.average(pos+1)
     # MRR=np.average(1/(pos+1))
 
-    category_mask = pos==0
+    category_mask = pos!=0
 
     disease_predictions = np.array(disease_predictions)
     disease_labels = np.array(disease_labels)
